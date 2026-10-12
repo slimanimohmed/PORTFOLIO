@@ -14,7 +14,7 @@ Serve the repository root. `index.html` is the entry point. For Netlify, deploy 
 
 ## Contents
 
-- 11 professional and academic project case studies, with category filters and accessible native dialogs.
+- 12 professional, academic, and design-study case studies, with category filters and accessible native dialogs.
 - Five academic years of searchable coursework consolidated from the supplied screenshots.
 - Experience, leadership, skills, contact links, a portrait, and the supplied downloadable CV.
 - Original conceptual engineering diagrams. These are explicitly labeled and are not project CAD evidence.
@@ -43,8 +43,18 @@ The contact form validates required fields and composes an email draft through t
 
 ## Validation
 
-Both JavaScript files pass Node syntax checks. Browser checks using Playwright and system Chromium passed: all five page routes; correct active navigation; mobile menus, Escape close, and no horizontal overflow on each page; five timeline entries; all 11 project dialogs; all four project filters (4 industrial, 6 academic, 1 freelance); five academic years; course search and empty state; required contact-form fields and correct mailto draft destination; PDF, image, styles and scripts; and no page errors. Email draft construction was checked without sending mail. Desktop and mobile screenshots are stored with the test script outside the repository at `/workspace/portfolio-validation/`. PDF availability was verified; rendering in PDF viewers depends on the browser.
+Both JavaScript files pass Node syntax checks. Browser checks using Playwright and system Chromium passed: all five page routes; correct active navigation; mobile menus, Escape close, and no horizontal overflow on each page; five timeline entries; all 12 project dialogs; all four project filters (4 industrial, 6 academic, 1 freelance); five academic years; course search and empty state; required contact-form fields and correct mailto draft destination; PDF, image, styles and scripts; and no page errors. Email draft construction was checked without sending mail. Desktop and mobile screenshots are stored with the test script outside the repository at `/workspace/portfolio-validation/`. PDF availability was verified; rendering in PDF viewers depends on the browser.
 
 ## UX improvements
 
-See [UX-REVIEW.md](UX-REVIEW.md) for the tested findings, applied design changes, and prioritized source-material improvements. The home page now leads with a portrait, direct actions, and three selected projects. All 11 projects remain on the Projects page. Case studies can be linked with `#project-<id>`.
+See [UX-REVIEW.md](UX-REVIEW.md) for the tested findings, applied design changes, and prioritized source-material improvements. The home page now leads with a portrait, direct actions, and three selected projects. All 12 projects remain on the Projects page. Case studies can be linked with `#project-<id>`.
+
+## User-supplied photo galleries
+
+The uploaded photo archive was visually inspected and mapped using its filenames and visible content. `PHOTO-SOURCES.json` records the mapping. Seventeen original photos/screenshots are included: the About portrait; nine activity photos; two interests screenshots; three TE internship/context photos; related UEMF CNC work; and the industrial-frame CAD image. Images are lazy loaded, keep their original proportions, and link to full-size originals. No synthetic image edits were used.
+
+The SolidWorks industrial frame is a separate design study, with no invented load cases, dimensions, results, or employer association. The UEMF machined welcome piece is labeled related laboratory work rather than an image of the powder tester. About activity captions do not invent event dates or employment roles.
+
+Six TE connector/mold/CAD/simulation/training images remain outside this public repository pending confirmation of public-sharing authorization; the master document marks this work restricted and one supplied training slide explicitly carries a confidential/proprietary marking. General TE internship and manufacturing-context photos are included. Redundant portraits remain in the original archive outside the checkout.
+
+Photo validation passed: all 17 image URLs, nine About activity cards, three TE case-study images, industrial-frame and related UEMF galleries, mobile layout without horizontal overflow, and existing page/project/search/contact flows.

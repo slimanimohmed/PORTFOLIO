@@ -1,0 +1,170 @@
+{
+  "published": [
+    {
+      "source": "conducted an event explaining cad in engineering.jpeg",
+      "file": "cad-workshop.jpeg",
+      "title": "Sharing CAD knowledge",
+      "caption": "Organizing an event about the role of CAD in engineering, with fellow students.",
+      "section": "about",
+      "width": 780,
+      "height": 1040
+    },
+    {
+      "source": "conducting TP for a thermodynamic cycle.jpg",
+      "file": "thermodynamics-lab.jpg",
+      "title": "Learning through experiments",
+      "caption": "A thermodynamics practical: connecting cycle theory with laboratory equipment and measurements.",
+      "section": "about",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "source": "entreprise sofafer.jpg",
+      "file": "sofafer-industry.jpg",
+      "title": "Exploring industrial environments",
+      "caption": "At SOFAFER: seeing an industrial setting beyond the classroom.",
+      "section": "about",
+      "width": 282,
+      "height": 248
+    },
+    {
+      "source": "first year bac degree.jpg",
+      "file": "mathematics-classroom.jpg",
+      "title": "Building a mathematical foundation",
+      "caption": "Working through mathematics at the board during my early academic journey.",
+      "section": "about",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "IMG-20231201-WA0018.jpg",
+      "file": "mechanics-whiteboard.jpg",
+      "title": "Making calculations tangible",
+      "caption": "Working through mechanics and center-of-mass calculations at the whiteboard.",
+      "section": "about",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "source": "presenting.jpg",
+      "file": "student-presentation.jpg",
+      "title": "Communicating ideas",
+      "caption": "Presenting in a classroom setting: making ideas clear and engaging with an audience.",
+      "section": "about",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "source": "Screenshot 2026-04-26 015712.png",
+      "file": "euromed-outreach.png",
+      "title": "Taking part in university life",
+      "caption": "A conversation at a Euromed Polytechnic School stand.",
+      "section": "about",
+      "width": 454,
+      "height": 652
+    },
+    {
+      "source": "WhatsApp Image 2025-07-01 at 23.23.44_b77dae0d.jpg",
+      "file": "engineering-workstation.jpg",
+      "title": "Staying close to engineering",
+      "caption": "Exploring engineering topics at a workstation with an automotive systems display.",
+      "section": "about",
+      "width": 3120,
+      "height": 4160
+    },
+    {
+      "source": "WhatsApp Image 2026-03-06 at 23.39.05.jpeg",
+      "file": "about-portrait.jpeg",
+      "title": "Mohamed Slimani",
+      "caption": "Mechanical engineering student \u00b7 Curious, practical, and always learning.",
+      "section": "portrait",
+      "width": 854,
+      "height": 1280
+    },
+    {
+      "source": "interests/bourse interest.png",
+      "file": "market-research.png",
+      "title": "Following companies and markets",
+      "caption": "An example of the company and market developments I enjoy following, including public offerings.",
+      "section": "interest",
+      "width": 1048,
+      "height": 694
+    },
+    {
+      "source": "interests/hermes agent.png",
+      "file": "ai-workflow.png",
+      "title": "Experimenting with AI tools",
+      "caption": "Exploring an AI-agent workflow as part of my interest in productivity and daily-work automation.",
+      "section": "interest",
+      "width": 1495,
+      "height": 678
+    },
+    {
+      "source": "te/te intern.jpeg",
+      "file": "te-internship.jpeg",
+      "title": "TE Connectivity internship",
+      "caption": "In the industrial environment during my TE Connectivity internship.",
+      "section": "connector",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "te/grain storage.jpeg",
+      "file": "te-material-storage.jpeg",
+      "title": "Manufacturing parts in storage",
+      "caption": "Trays of manufacturing parts photographed during the TE internship, providing context for the production environment.",
+      "section": "connector",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "te/grains for TE internship.jpeg",
+      "file": "te-material-granules.jpeg",
+      "title": "Manufacturing materials",
+      "caption": "Material granules photographed during the TE internship; shown as process context rather than a claimed material specification.",
+      "section": "connector",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "storage grain.jpeg",
+      "file": "material-storage.jpeg",
+      "title": "Industrial material handling",
+      "caption": "A view of material-storage equipment in a manufacturing environment.",
+      "section": "about-industry",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "uemf/cnc machined logo.jpeg",
+      "file": "uemf-machined-part.jpeg",
+      "title": "CNC machining in practice",
+      "caption": "A machined welcome/logo piece from UEMF laboratory work. This is related machining work, not the ASTM B213 tester.",
+      "section": "powder",
+      "width": 899,
+      "height": 1599
+    },
+    {
+      "source": "projet bati indus/bati solidworks.jpeg",
+      "file": "industrial-frame-cad.jpeg",
+      "title": "Industrial frame CAD study",
+      "caption": "A SolidWorks assembly of an industrial frame and its supporting structure.",
+      "section": "structure",
+      "width": 1600,
+      "height": 820
+    }
+  ],
+  "pending_publication_review": [
+    "mqs connector cover.jpeg",
+    "te/creo assembly.png",
+    "te/mold.jpeg",
+    "te/mqs cad.jpeg",
+    "te/mqs parts.jpeg",
+    "te/simulation.png"
+  ],
+  "redundant_original": [
+    "profile picture.png",
+    "photo perso.png"
+  ],
+  "notes": "Names and captions derive from supplied filenames and visible contents. TE technical images remain outside the public repository pending public-sharing confirmation."
+}
