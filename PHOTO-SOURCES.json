@@ -152,19 +152,29 @@
       "section": "structure",
       "width": 1600,
       "height": 820
+    },
+    {
+      "source": "te/creo assembly.png",
+      "file": "te-creo-assembly.png",
+      "title": "Connector assembly in Creo",
+      "caption": "A Creo assembly screenshot showing component placement in the MQS connector model.",
+      "section": "connector",
+      "width": 1300,
+      "height": 700
     }
   ],
   "pending_publication_review": [
     "mqs connector cover.jpeg",
-    "te/creo assembly.png",
     "te/mold.jpeg",
     "te/mqs cad.jpeg",
-    "te/mqs parts.jpeg",
     "te/simulation.png"
   ],
   "redundant_original": [
     "profile picture.png",
     "photo perso.png"
   ],
-  "notes": "Names and captions derive from supplied filenames and visible contents. TE technical images remain outside the public repository pending public-sharing confirmation."
+  "notes": "The user specifically requested publishing the Creo assembly screenshot and excluding mqs parts.jpeg. Employer approval has not been represented as granted. Other TE technical images remain unpublished.",
+  "excluded_by_user": [
+    "te/mqs parts.jpeg"
+  ]
 }

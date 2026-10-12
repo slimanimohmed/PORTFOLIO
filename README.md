@@ -58,3 +58,5 @@ The SolidWorks industrial frame is a separate design study, with no invented loa
 Six TE connector/mold/CAD/simulation/training images remain outside this public repository pending confirmation of public-sharing authorization; the master document marks this work restricted and one supplied training slide explicitly carries a confidential/proprietary marking. General TE internship and manufacturing-context photos are included. Redundant portraits remain in the original archive outside the checkout.
 
 Photo validation passed: all 17 image URLs, nine About activity cards, three TE case-study images, industrial-frame and related UEMF galleries, mobile layout without horizontal overflow, and existing page/project/search/contact flows.
+
+The user subsequently specifically requested inclusion of `te/creo assembly.png` and exclusion of `te/mqs parts.jpeg`. The Creo screenshot is now included in the TE case study (18 supplied image files total; four TE gallery images). No employer approval is claimed. The named training slide remains excluded, and the other TE technical screenshots remain unpublished.
