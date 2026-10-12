@@ -44,3 +44,7 @@ The contact form validates required fields and composes an email draft through t
 ## Validation
 
 Both JavaScript files pass Node syntax checks. Browser checks using Playwright and system Chromium passed: all five page routes; correct active navigation; mobile menus, Escape close, and no horizontal overflow on each page; five timeline entries; all 11 project dialogs; all four project filters (4 industrial, 6 academic, 1 freelance); five academic years; course search and empty state; required contact-form fields and correct mailto draft destination; PDF, image, styles and scripts; and no page errors. Email draft construction was checked without sending mail. Desktop and mobile screenshots are stored with the test script outside the repository at `/workspace/portfolio-validation/`. PDF availability was verified; rendering in PDF viewers depends on the browser.
+
+## UX improvements
+
+See [UX-REVIEW.md](UX-REVIEW.md) for the tested findings, applied design changes, and prioritized source-material improvements. The home page now leads with a portrait, direct actions, and three selected projects. All 11 projects remain on the Projects page. Case studies can be linked with `#project-<id>`.
