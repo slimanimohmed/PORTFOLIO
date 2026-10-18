@@ -59,7 +59,7 @@
       "file": "euromed-outreach.png",
       "title": "Taking part in university life",
       "caption": "A conversation at a Euromed Polytechnic School stand.",
-      "section": "about",
+      "section": "interest",
       "width": 454,
       "height": 652
     },
@@ -80,15 +80,6 @@
       "section": "portrait",
       "width": 854,
       "height": 1280
-    },
-    {
-      "source": "interests/bourse interest.png",
-      "file": "market-research.png",
-      "title": "Following companies and markets",
-      "caption": "An example of the company and market developments I enjoy following, including public offerings.",
-      "section": "interest",
-      "width": 1048,
-      "height": 694
     },
     {
       "source": "interests/hermes agent.png",
@@ -229,7 +220,8 @@
   ],
   "notes": "The user specifically requested publishing the Creo assembly screenshot and excluding mqs parts.jpeg. Employer approval has not been represented as granted. Other TE technical images remain unpublished.",
   "excluded_by_user": [
-    "te/mqs parts.jpeg"
+    "te/mqs parts.jpeg",
+    "interests/bourse interest.png"
   ],
   "drive_photo_review": "18 October 2026: reviewed project-photo folders in the owner-selected Drive account. Web copies preserve the full frame and remove EXIF metadata. New images support MOBDIE prototypes, a related cranial model and related lab context. Valve drawings/call screenshots and internal TE documents were not selected. The printer folder is not attributed to a new project because the master does not establish that work."
 }
