@@ -152,6 +152,69 @@
       "section": "connector",
       "width": 1300,
       "height": 700
+    },
+    {
+      "file": "mobdie-walking-robot.webp",
+      "title": "Walking robot prototype",
+      "caption": "The assembled walking robot brings the laser-cut structure and mechanical drive together in a physical kit.",
+      "width": 1080,
+      "height": 1440,
+      "section": "robotics",
+      "source": "IMG_20260313_130816.jpg"
+    },
+    {
+      "file": "mobdie-walking-mechanism.webp",
+      "title": "A closer look at the mechanism",
+      "caption": "The side view shows the linkage and leg assembly behind the walking motion, alongside the fabricated frame.",
+      "width": 1080,
+      "height": 1440,
+      "section": "robotics",
+      "source": "IMG_20260315_164205.jpg"
+    },
+    {
+      "file": "mobdie-water-wheel.webp",
+      "title": "Electric water-wheel prototype",
+      "caption": "The wheel, supports and drive assembled on the bench. This prototype connects the mechanism design to parts made for assembly.",
+      "width": 1080,
+      "height": 1440,
+      "section": "robotics",
+      "source": "IMG_20260505_160949.jpg"
+    },
+    {
+      "file": "mobdie-kit-components.webp",
+      "title": "From parts to an assembly",
+      "caption": "Laser-cut pieces and small components laid out before assembly: the intermediate step between the CAD layout and the finished kit.",
+      "width": 1080,
+      "height": 1440,
+      "section": "robotics",
+      "source": "IMG_20260313_130808.jpg"
+    },
+    {
+      "file": "mobdie-laser-cutting.webp",
+      "title": "Fabrication in the workshop",
+      "caption": "Laser cutting in the MOBDIE prototyping photo collection, showing the fabrication stage used to turn component layouts into parts.",
+      "width": 1080,
+      "height": 1440,
+      "section": "robotics",
+      "source": "IMG_20260313_160726.jpg"
+    },
+    {
+      "file": "uemf-cranial-model.webp",
+      "title": "Related cranial model",
+      "caption": "A physical cranial model from the UEMF laboratory photo collection. It provides anatomical-model context; the implant and split mold are not shown here.",
+      "width": 1080,
+      "height": 1440,
+      "section": "implant",
+      "source": "IMG_20260209_175858.jpg"
+    },
+    {
+      "file": "uemf-recoater.webp",
+      "title": "Additive-manufacturing lab context",
+      "caption": "A recoater in the UEMF lab photo collection. Shown as supporting laboratory context, rather than as a component of the powder-flowability tester.",
+      "width": 607,
+      "height": 808,
+      "section": "powder",
+      "source": "SLS REACOATER.png"
     }
   ],
   "pending_publication_review": [
@@ -167,5 +230,6 @@
   "notes": "The user specifically requested publishing the Creo assembly screenshot and excluding mqs parts.jpeg. Employer approval has not been represented as granted. Other TE technical images remain unpublished.",
   "excluded_by_user": [
     "te/mqs parts.jpeg"
-  ]
+  ],
+  "drive_photo_review": "18 October 2026: reviewed project-photo folders in the owner-selected Drive account. Web copies preserve the full frame and remove EXIF metadata. New images support MOBDIE prototypes, a related cranial model and related lab context. Valve drawings/call screenshots and internal TE documents were not selected. The printer folder is not attributed to a new project because the master does not establish that work."
 }

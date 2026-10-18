@@ -31,10 +31,10 @@ Confidential design-study content is excluded from the current public site. Remo
 
 Existing images retain their original context: the UEMF machined piece is related lab work, rather than a photo of the powder tester. Conceptual illustrations are labeled. The Creo screenshot was explicitly selected for publication in an earlier owner instruction recorded in the existing photo provenance. No employer approval is claimed. Other restricted technical material remains excluded.
 
-New PFE-folder imagery was not imported in this update: the connected Drive account did not match the owner-specified account. Add images only after inspecting them, matching them to the correct project and checking the master's stated confidentiality boundaries. Do not use Drive login-dependent links as site image URLs; store suitable web assets in the repository.
+The owner-selected Drive connection was subsequently verified. Seven images from PFE / Portfolio pictures are now included: five MOBDIE prototype/fabrication images, a related cranial model and related UEMF recoater context. Originals were visually inspected; web copies retain the full frame, respect image orientation and omit EXIF metadata. Robot and wheel images document prototypes. The cranial model and recoater are explicitly labeled supporting context. Confidential drawings, call screenshots and internal TE documents were excluded. No photo was inferred to document the powder tester itself. Other projects retain labeled conceptual illustrations. The printer folder is not assigned to a new project without supporting work history.
 
 The contact form prepares a draft in the visitor's email application. It does not send mail or collect submissions.
 
 ## Validation
 
-JavaScript syntax, project data, conceptual drawings, gallery paths and local page links pass static checks. Local browser testing was blocked by an unavailable browser binary; a browser download failed. Live-page verification follows publishing. Inline PDF rendering depends on the visitor’s browser.
+JavaScript syntax, project data, conceptual drawings, gallery paths and local page links pass static checks. Local browser testing was blocked by an unavailable browser binary; a browser download failed. The previous text update was verified on the live site: all 12 dialogs, four filters and coursework search. The photo update is checked for asset paths and image decoding before publishing and visually reviewed on the live page afterward. Inline PDF rendering depends on the visitor’s browser.

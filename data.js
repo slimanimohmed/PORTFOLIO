@@ -268,6 +268,59 @@ const projectPhotos={
       "caption": "A machined welcome/logo piece from UEMF laboratory work. This is related machining work, not the ASTM B213 tester.",
       "width": 899,
       "height": 1599
+    },
+    {
+      "file": "uemf-recoater.webp",
+      "title": "Additive-manufacturing lab context",
+      "caption": "A recoater in the UEMF lab photo collection. Shown as supporting laboratory context, rather than as a component of the powder-flowability tester.",
+      "width": 607,
+      "height": 808
+    }
+  ],
+  "robotics": [
+    {
+      "file": "mobdie-walking-robot.webp",
+      "title": "Walking robot prototype",
+      "caption": "The assembled walking robot brings the laser-cut structure and mechanical drive together in a physical kit.",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "file": "mobdie-walking-mechanism.webp",
+      "title": "A closer look at the mechanism",
+      "caption": "The side view shows the linkage and leg assembly behind the walking motion, alongside the fabricated frame.",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "file": "mobdie-water-wheel.webp",
+      "title": "Electric water-wheel prototype",
+      "caption": "The wheel, supports and drive assembled on the bench. This prototype connects the mechanism design to parts made for assembly.",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "file": "mobdie-kit-components.webp",
+      "title": "From parts to an assembly",
+      "caption": "Laser-cut pieces and small components laid out before assembly: the intermediate step between the CAD layout and the finished kit.",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "file": "mobdie-laser-cutting.webp",
+      "title": "Fabrication in the workshop",
+      "caption": "Laser cutting in the MOBDIE prototyping photo collection, showing the fabrication stage used to turn component layouts into parts.",
+      "width": 1080,
+      "height": 1440
+    }
+  ],
+  "implant": [
+    {
+      "file": "uemf-cranial-model.webp",
+      "title": "Related cranial model",
+      "caption": "A physical cranial model from the UEMF laboratory photo collection. It provides anatomical-model context; the implant and split mold are not shown here.",
+      "width": 1080,
+      "height": 1440
     }
   ]
 };
