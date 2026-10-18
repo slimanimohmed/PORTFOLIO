@@ -76,7 +76,7 @@
       "source": "WhatsApp Image 2026-03-06 at 23.39.05.jpeg",
       "file": "about-portrait.jpeg",
       "title": "Mohamed Slimani",
-      "caption": "Mechanical engineering student \u00b7 Curious, practical, and always learning.",
+      "caption": "Mechanical engineering student · Curious, practical, and always learning.",
       "section": "portrait",
       "width": 854,
       "height": 1280
@@ -143,15 +143,6 @@
       "section": "powder",
       "width": 899,
       "height": 1599
-    },
-    {
-      "source": "projet bati indus/bati solidworks.jpeg",
-      "file": "industrial-frame-cad.jpeg",
-      "title": "Industrial frame CAD study",
-      "caption": "A SolidWorks assembly of an industrial frame and its supporting structure.",
-      "section": "structure",
-      "width": 1600,
-      "height": 820
     },
     {
       "source": "te/creo assembly.png",
