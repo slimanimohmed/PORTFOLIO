@@ -1,3 +1,5 @@
+projectPhotos["connector"] = [{"file": "te-report-assembly.webp", "title": "The connector architecture", "caption": "The assembled MQS connector studied during the internship. The redesign focused on the locking function within this existing architecture.", "width": 1600, "height": 729}, {"file": "te-report-exploded.webp", "title": "Understanding the interfaces", "caption": "The exploded view separates the carrier, terminal module, terminal and cover. This helped identify where the locking function could be integrated.", "width": 847, "height": 573}, {"file": "te-report-fea.webp", "title": "Checking the concept numerically", "caption": "ANSYS Static Structural view showing normal elastic strain. The numerical work supported preliminary stiffness assessment; it does not establish final insertion, retention or durability performance.", "width": 1292, "height": 683}, {"file": "te-report-prototype.webp", "title": "Preparing a prototype", "caption": "Sliced toolpaths for the module prototype. This is preparation for geometric and assembly assessment, not evidence of completed physical validation.", "width": 1317, "height": 406}];
+projectPhotos["aerospace"] = [{"file": "fuselage-cad.webp", "title": "Fuselage-section CAD", "caption": "The team’s fuselage-section model, showing the outer skin and internal structure. The CAD model was the basis for the structural study.", "width": 721, "height": 580}, {"file": "fuselage-stress.webp", "title": "Static stress analysis", "caption": "Equivalent (von Mises) stress distribution for the displayed static model. The plot helped examine how the modeled structure carried load; a stress contour alone does not establish a safety margin.", "width": 967, "height": 562}, {"file": "fuselage-modal.webp", "title": "A closer look at a vibration mode", "caption": "Still from the supplied modal-analysis animation, displaying a mode at 9.0564 Hz. The deformation illustrates the mode shape, not an operating displacement.", "width": 1132, "height": 460}];
 const siteRoot = new URL('.', document.currentScript.src);
 const photoRoot = new URL('assets/photos/', siteRoot).href;
 const groups = {powder:'industrial', valve:'industrial', connector:'industrial', flyson:'industrial', robotics:'freelance'};
@@ -11,9 +13,9 @@ const highlights = {
 };
 const caseUrl = p => new URL(`projects/${p.id}/index.html`, siteRoot).href;
 function projectVisual(p) {
- if (p.id === 'robotics' || p.id === 'connector') {
+ if (['robotics','connector','aerospace'].includes(p.id)) {
   const i = projectPhotos[p.id][0];
-  return `<img class="project-photo" src="${photoRoot+i.file}" alt="${i.title}" width="${i.width}" height="${i.height}" loading="lazy"><span class="image-label">${p.id === 'robotics' ? 'PROJECT PROTOTYPE' : 'INTERNSHIP CONTEXT'}</span>`;
+  return `<img class="project-photo" src="${photoRoot+i.file}" alt="${i.title}" width="${i.width}" height="${i.height}" loading="lazy"><span class="image-label">${p.id === 'robotics' ? 'PROJECT PROTOTYPE' : 'PROJECT CAD'}</span>`;
  }
  return `${drawing(p)}<span class="image-label">CONCEPTUAL ILLUSTRATION</span>`;
 }
@@ -84,3 +86,4 @@ document.querySelector('#copy-email')?.addEventListener('click',async()=>{
 if(location.hash.startsWith('#project-')){
  const p=projects.find(p=>p.id===location.hash.slice(9));if(p)location.replace(caseUrl(p));
 }
+
