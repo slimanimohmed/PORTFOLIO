@@ -13,7 +13,7 @@ const projects = [
       "I prepared CAM in Fusion 360 and used the Haas VF-2, a three-axis CNC mill, to machine components.",
       "FDM and SLS prototyping supported the fabrication work, taking the assignment beyond the CAD model."
     ],
-    "result": "A fabricated test bench supported by CAD/CAM work. The project was designed with reference to ASTM B213; it is not presented as independently certified.",
+    "result": "A fabricated powder-flowability test bench, supported by CAD/CAM development and built with reference to ASTM B213.",
     "shape": "tester"
   },
   {
@@ -47,9 +47,9 @@ const projects = [
       "I developed parametric CAD and assessed locking-beam deflection with mechanical calculations and ANSYS Mechanical FEA.",
       "I used Excel/VBA for engineering calculations and prepared a prototype validation test plan."
     ],
-    "result": "The work produced redesign concepts, mechanical analysis and a validation plan. Final prototype test results are not claimed.",
+    "result": "Redesign concepts supported by mechanical calculations, ANSYS analysis and a prototype validation plan.",
     "shape": "connector",
-    "note": "The case study focuses on the engineering method. Customer specifications and detailed manufacturing drawings are not shared."
+    "note": "From functional requirements to CAD concepts, mechanical analysis and validation planning."
   },
   {
     "id": "implant",
@@ -65,7 +65,7 @@ const projects = [
       "I modeled the implant boundaries and fixation interfaces.",
       "I designed a two-part mold for prototype manufacture, with prototyping and mechanical evaluation included in the project work."
     ],
-    "result": "A patient-specific CAD concept and mold design for an academic engineering study. The work does not establish clinical readiness or medical-device approval.",
+    "result": "An academic implant concept and split-mold design connecting scan reconstruction, surface modeling and prototype manufacture.",
     "shape": "implant"
   },
   {
@@ -75,16 +75,16 @@ const projects = [
     "org": "Guide Valve Limited · Mechanical design",
     "category": "Design",
     "tools": "CATIA V5 / SolidWorks / GD&T / BOM / Excel & VBA",
-    "intro": "At Guide Valve, I design industrial valve assemblies and prepare the drawings and documentation needed to communicate them.",
+    "intro": "At Guide Valve, I designed industrial valve assemblies and prepared the drawings and documentation needed to communicate them.",
     "challenge": "Large assemblies need consistent models, dimensions and parts lists. Different valve sizes also create repeated configuration work.",
     "process": [
-      "I model industrial valves in CATIA V5 and SolidWorks, including assemblies with more than 150 components.",
-      "I prepare manufacturing drawings, dimensional and functional tolerances, GD&T and bills of materials.",
-      "I link parametric models to Excel and use VBA to generate size-specific configurations and export STEP files and drawings."
+      "I modeled industrial valves in CATIA V5 and SolidWorks, including assemblies with more than 150 components.",
+      "I prepared manufacturing drawings, dimensional and functional tolerances, GD&T and bills of materials.",
+      "I linked parametric models to Excel and used VBA to generate size-specific configurations and export STEP files and drawings."
     ],
     "result": "Parametric valve assemblies, configuration tools and manufacturing documentation.",
     "shape": "valve",
-    "note": "Proprietary models and dimensions are not published. The diagram is a conceptual illustration."
+    "note": "Mechanical design and CAD automation · February–October 2026."
   },
   {
     "id": "flyson",
@@ -100,9 +100,9 @@ const projects = [
       "I helped standardize stages with checklists, prepared a maintenance plan and took part in daily drone maintenance.",
       "I built an Odoo database for flight and customer tracking and worked on Python tools for flight and battery scheduling or analysis."
     ],
-    "result": "The internship recorded a 60% reduction in mission-preparation time. The figure concerns preparation, rather than total flight time or energy use.",
+    "result": "The internship study estimated a 60% reduction in field-preparation time through clearer pre-mission coordination and checklists.",
     "shape": "drone",
-    "note": "Customer information, flight records and operational maps remain private."
+    "note": "Field operations, maintenance planning and mission-preparation workflows."
   },
   {
     "id": "robotics",
@@ -135,7 +135,7 @@ const projects = [
       "I evaluated pressure drops and considered baffle pitch with reference to TEMA guidance.",
       "I developed an Excel workbook to automate the sizing calculations."
     ],
-    "result": "A thermal and hydraulic sizing study with an Excel calculation tool. TEMA was a design reference, rather than a claim of independently verified compliance.",
+    "result": "A thermal and hydraulic sizing study, using TEMA as a design reference and an Excel workbook to iterate the calculations.",
     "shape": "exchanger"
   },
   {
@@ -152,7 +152,7 @@ const projects = [
       "I worked through the mechanism kinematics and the structural sizing of the frame.",
       "I considered actuation, part manufacture and assembly as the design developed."
     ],
-    "result": "A machine-design study covering the mechanism, frame and manufacturing considerations. It is presented as design work; physical machine performance has not been established.",
+    "result": "A complete machine-design study covering the three-roll mechanism, component sizing, supporting frame and CAD assembly.",
     "shape": "bender"
   },
   {
@@ -169,7 +169,7 @@ const projects = [
       "I compared the coefficients across angles of attack.",
       "I plotted the results to examine the differences between the two profiles."
     ],
-    "result": "An academic numerical comparison of two airfoils. The results are model-based, without experimental validation.",
+    "result": "A MATLAB study comparing lift, drag and aerodynamic efficiency across angle of attack and Reynolds number.",
     "shape": "airfoil"
   },
   {
@@ -203,78 +203,348 @@ const projects = [
       "I carried out theoretical P–V-cycle calculations.",
       "I evaluated thermal-to-mechanical conversion through the cycle analysis."
     ],
-    "result": "An engine CAD study and theoretical thermal analysis. The work does not claim measured power or efficiency.",
+    "result": "A Gamma Stirling CAD assembly and theoretical thermal-cycle study linking the mechanism to heat-to-work conversion.",
     "shape": "stirling"
   }
 ];
-const illustrations={
- moody:'<path d="M90 50v220h330M110 90c40 120 100 145 290 145M110 120c40 90 100 100 290 100M110 150c40 40 100 45 290 45M110 180l110-100"/><path d="M90 120h330M90 195h330M190 50v220M290 50v220" stroke-dasharray="4 6"/>',
- tester:'<ellipse cx="250" cy="80" rx="90" ry="25"/><path d="M160 80l76 110v30h28v-30L340 80M145 260h210M165 120v140M335 120v140"/><ellipse cx="250" cy="244" rx="50" ry="12"/><path d="M200 244v35h100v-35"/>',
- fuselage:'<ellipse cx="120" cy="170" rx="45" ry="80"/><ellipse cx="370" cy="130" rx="45" ry="80"/><path d="M120 90l250-40M120 250l250-40M75 170l250-40M165 170l250-40"/><ellipse cx="200" cy="157" rx="45" ry="80"/><ellipse cx="285" cy="143" rx="45" ry="80"/>',
- connector:'<path d="M140 110l180-30 90 65-180 35zM140 110v110l90 60V180M230 280l180-35V145M180 126v40l30 20v-50M275 165v80l95-18v-80M300 183l45-9v27l-45 9z"/>',
- implant:'<path d="M150 260c-55-55-50-155 15-190 85-45 175-5 190 60 10 45-10 62-25 90l-45 15-15 45M165 115c45-35 95-30 125-5l-10 85-80 15z"/><path d="M180 135l90 45M175 165l90-25M210 112l30 89" stroke-dasharray="4 5"/>',
- valve:'<ellipse cx="150" cy="190" rx="30" ry="60"/><ellipse cx="350" cy="190" rx="30" ry="60"/><path d="M150 130h200M150 250h200M215 130V85h70v45M250 85V50M195 50h110"/><circle cx="250" cy="190" r="45"/><path d="M215 160l70 60M215 220l70-60"/>',
- drone:'<path d="M210 140h80v65h-80zM210 155l-80-55M290 155l80-55M210 190l-80 55M290 190l80 55M220 205l-20 45M280 205l20 45"/><ellipse cx="130" cy="100" rx="52" ry="12"/><ellipse cx="370" cy="100" rx="52" ry="12"/><ellipse cx="130" cy="245" rx="52" ry="12"/><ellipse cx="370" cy="245" rx="52" ry="12"/>',
- robot:'<rect x="195" y="105" width="110" height="90" rx="8"/><circle cx="225" cy="140" r="10"/><circle cx="275" cy="140" r="10"/><path d="M225 175h50M250 105V70M195 145l-50 45 30 30M305 145l50 45-30 30M220 195l-35 55 30 20M280 195l35 55-30 20"/><circle cx="250" cy="65" r="6"/>',
- exchanger:'<rect x="100" y="115" width="300" height="115" rx="50"/><path d="M140 135h220M140 155h220M140 175h220M140 195h220M140 215h220M180 115V75h35v40M290 230v40h35v-40M190 125v85M250 140v80M310 125v85"/>',
- bender:'<path d="M125 260h250l-30-110H160zM160 150V100h180v50M180 170v70M320 170v70M120 100h130c45 0 60-25 60-65"/><circle cx="250" cy="105" r="35"/><path d="M250 105l95-40"/>',
- airfoil:'<path d="M75 180c80-100 180-55 350 0-120-5-290 45-350 0zM75 235c95-65 240-35 350 0-110 30-255 50-350 0z"/><path d="M70 85h340M70 105h340M390 75l20 10-20 10" stroke-dasharray="5 6"/>',
- stirling:'<rect x="150" y="90" width="65" height="150" rx="10"/><rect x="290" y="135" width="65" height="105" rx="10"/><path d="M160 160h45M182 160V60h110M300 195h45M322 195V80M215 220h75M125 260h255"/><circle cx="300" cy="70" r="40"/><circle cx="300" cy="70" r="6"/>'
-};
-function drawing(p){return `<svg viewBox="0 0 500 320" aria-hidden="true"><g fill="none" stroke="#496254" stroke-width="1.5" stroke-linejoin="round">${illustrations[p.shape]}</g><path d="M60 285h380M60 280v10M440 280v10" fill="none" stroke="#496254" stroke-width=".6" stroke-dasharray="4 4"/></svg>`;}
-const courses=[
- {year:'2022–2023',title:'Preparatory programme · Year 1',status:'Academic record',modules:['Algebra 1 & 2','Analysis 1 & 2','Point mechanics','Optics','General chemistry','Solution chemistry','Mineral chemistry','Organic chemistry','Applied thermodynamics','General thermodynamics','Computer science 1','Mathematics 1 & 2','Physical sciences 1 & 2','Languages & communication 1 & 2','English','French','Spanish','Sport']},
- {year:'2023–2024',title:'Preparatory programme · Year 2',status:'Academic record',modules:['Algebra 3 & 4','Analysis 4','Mathematics 4','Probability','Technical drawing','Electrokinetics','Electromagnetism 1 & 2','Electronics','Materials','Fluid mechanics','Solid mechanics','Strength of materials (RDM)','Vibrations','Computer science 2 & 3','Computer-aided design (CAD)','Engineering sciences & techniques 2','Physical sciences 4, 5 & 6','Engineering role & languages','Projects','Euromed culture','English','Spanish']},
- {year:'2024–2025',title:'Engineering cycle · Year 1',status:'Academic record',modules:['Computer-aided design','Materials science & metallurgy','Digital culture','Mechanical manufacturing & metrology','Engineering sciences','Engineering statistics & statistical process control','Electrical machines','Fluid mechanics','Mechanics of materials & machine components','Systems & measurements','Heat transfer','Thermal exchange','Languages & communication 1 & 2','Culture','English','Spanish']},
- {year:'2025–2026',title:'Engineering cycle · Year 2',status:'Academic record',modules:['Fluid dynamics','Computer-aided manufacturing','Engineering design 1: guidance & motion transformation','Introduction to artificial intelligence','Thermal machines','Sheet metal & forging','Entrepreneurship & business management','Additive manufacturing 1 & design of experiments','Project & production management','Engineering design 2: hydraulics & pneumatics','Numerical methods for engineers & finite element method','Systems theory','Languages & communication 2 & 4','English 3 & 4','Spanish 3 & 4']},
- {year:'2026–2027',title:'Engineering cycle · Year 3',status:'Planned / in progress · no grades provided',modules:['Vibration analysis','Control & servo systems','Non-destructive testing & surface engineering','Employment skills: communication & human resources','Additive manufacturing 2','Industrial predictive maintenance','Integrative project','Languages & communication 5','English','Spanish']}
+const courses = [
+  {
+    "year": "2022–2023",
+    "title": "Preparatory programme · Year 1",
+    "status": "Academic record",
+    "modules": [
+      "Algebra 1 & 2",
+      "Analysis 1 & 2",
+      "Point mechanics",
+      "Optics",
+      "General chemistry",
+      "Solution chemistry",
+      "Mineral chemistry",
+      "Organic chemistry",
+      "Applied thermodynamics",
+      "General thermodynamics",
+      "Computer science 1",
+      "Mathematics 1 & 2",
+      "Physical sciences 1 & 2",
+      "Languages & communication 1 & 2",
+      "English",
+      "French",
+      "Spanish",
+      "Sport"
+    ]
+  },
+  {
+    "year": "2023–2024",
+    "title": "Preparatory programme · Year 2",
+    "status": "Academic record",
+    "modules": [
+      "Algebra 3 & 4",
+      "Analysis 4",
+      "Mathematics 4",
+      "Probability",
+      "Technical drawing",
+      "Electrokinetics",
+      "Electromagnetism 1 & 2",
+      "Electronics",
+      "Materials",
+      "Fluid mechanics",
+      "Solid mechanics",
+      "Strength of materials (RDM)",
+      "Vibrations",
+      "Computer science 2 & 3",
+      "Computer-aided design (CAD)",
+      "Engineering sciences & techniques 2",
+      "Physical sciences 4, 5 & 6",
+      "Engineering role & languages",
+      "Projects",
+      "Euromed culture",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "year": "2024–2025",
+    "title": "Engineering cycle · Year 1",
+    "status": "Academic record",
+    "modules": [
+      "Computer-aided design",
+      "Materials science & metallurgy",
+      "Digital culture",
+      "Mechanical manufacturing & metrology",
+      "Engineering sciences",
+      "Engineering statistics & statistical process control",
+      "Electrical machines",
+      "Fluid mechanics",
+      "Mechanics of materials & machine components",
+      "Systems & measurements",
+      "Heat transfer",
+      "Thermal exchange",
+      "Languages & communication 1 & 2",
+      "Culture",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "year": "2025–2026",
+    "title": "Engineering cycle · Year 2",
+    "status": "Academic record",
+    "modules": [
+      "Fluid dynamics",
+      "Computer-aided manufacturing",
+      "Engineering design 1: guidance & motion transformation",
+      "Introduction to artificial intelligence",
+      "Thermal machines",
+      "Sheet metal & forging",
+      "Entrepreneurship & business management",
+      "Additive manufacturing 1 & design of experiments",
+      "Project & production management",
+      "Engineering design 2: hydraulics & pneumatics",
+      "Numerical methods for engineers & finite element method",
+      "Systems theory",
+      "Languages & communication 2 & 4",
+      "English 3 & 4",
+      "Spanish 3 & 4"
+    ]
+  },
+  {
+    "year": "2026–2027",
+    "title": "Engineering cycle · Year 3",
+    "status": "Planned / in progress · no grades provided",
+    "modules": [
+      "Vibration analysis",
+      "Control & servo systems",
+      "Non-destructive testing & surface engineering",
+      "Employment skills: communication & human resources",
+      "Additive manufacturing 2",
+      "Industrial predictive maintenance",
+      "Integrative project",
+      "Languages & communication 5",
+      "English",
+      "Spanish"
+    ]
+  }
 ];
-
-const projectPhotos={
-  "connector": [
-    {
-      "file": "te-internship.jpeg",
-      "title": "TE Connectivity internship",
-      "caption": "In the industrial environment during my TE Connectivity internship.",
-      "width": 960,
-      "height": 1280
-    },
-    {
-      "file": "te-material-storage.jpeg",
-      "title": "Manufacturing parts in storage",
-      "caption": "Trays of manufacturing parts photographed during the TE internship, providing context for the production environment.",
-      "width": 960,
-      "height": 1280
-    },
-    {
-      "file": "te-material-granules.jpeg",
-      "title": "Manufacturing materials",
-      "caption": "Material granules photographed during the TE internship; shown as process context rather than a claimed material specification.",
-      "width": 960,
-      "height": 1280
-    },
-    {
-      "file": "te-creo-assembly.png",
-      "title": "Connector assembly in Creo",
-      "caption": "A Creo assembly screenshot showing component placement in the MQS connector model.",
-      "width": 1300,
-      "height": 700
-    }
-  ],
+const projectPhotos = {
   "powder": [
     {
-      "file": "uemf-machined-part.jpeg",
-      "title": "CNC machining in practice",
-      "caption": "A machined welcome/logo piece from UEMF laboratory work. This is related machining work, not the ASTM B213 tester.",
+      "file": "lab-machined-cup.webp",
+      "title": "Precision machining in the lab",
+      "caption": "A machined metal component from the UEMF laboratory: the practical side of turning CAD geometry into a physical part.",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "lab-cnc-part.webp",
+      "title": "CNC machining",
+      "caption": "Machined detail from the UEMF workshop, where I developed my CAD, CAM and fabrication skills.",
       "width": 899,
       "height": 1599
     },
     {
-      "file": "uemf-recoater.webp",
-      "title": "Additive-manufacturing lab context",
-      "caption": "A recoater in the UEMF lab photo collection. Shown as supporting laboratory context, rather than as a component of the powder-flowability tester.",
-      "width": 607,
-      "height": 808
+      "file": "lab-machine-maintenance.webp",
+      "title": "Inside the workshop equipment",
+      "caption": "The mechanical and pneumatic systems inside laboratory equipment during workshop work.",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "implant": [
+    {
+      "file": "cranial-model.webp",
+      "title": "Working with anatomical geometry",
+      "caption": "A physical cranial model in the UEMF laboratory, connecting irregular anatomical surfaces with hands-on prototyping.",
+      "width": 1080,
+      "height": 1440
+    },
+    {
+      "file": "cranial-mold-practical.webp",
+      "title": "Mold-making practical",
+      "caption": "A split-mold practical in the UEMF laboratory, showing the mold cavity and the shaped component.",
+      "width": 1080,
+      "height": 1180
+    },
+    {
+      "file": "cranial-mold-cad.webp",
+      "title": "From surfaces to mold geometry",
+      "caption": "Mold geometry on the laboratory workstation: considering the cavity, surrounding material and part separation.",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "bender": [
+    {
+      "file": "bender-assembly.webp",
+      "title": "Three-roll bending machine",
+      "caption": "The final CAD assembly from our tube-bender design report, bringing the rollers, adjustment mechanism and supporting frame together.",
+      "width": 719,
+      "height": 781
+    },
+    {
+      "file": "bender-shaft.webp",
+      "title": "Drive and roller shaft",
+      "caption": "The shaft assembly from the design study. Component interfaces and load transmission were part of the mechanical sizing work.",
+      "width": 627,
+      "height": 413
+    },
+    {
+      "file": "bender-frame.webp",
+      "title": "Supporting frame",
+      "caption": "The frame geometry developed for the machine architecture, linking the roller arrangement to the supporting structure.",
+      "width": 1006,
+      "height": 670
+    },
+    {
+      "file": "bender-adjustment.webp",
+      "title": "Adjusting the roller position",
+      "caption": "The screw-operated adjustment mechanism used to position the movable roller.",
+      "width": 600,
+      "height": 562
+    }
+  ],
+  "stirling": [
+    {
+      "file": "stirling-assembly.webp",
+      "title": "Gamma Stirling CAD assembly",
+      "caption": "The CAD assembly from our academic presentation, showing the separate cylinders, connecting rods and flywheel mechanism.",
+      "width": 1086,
+      "height": 791
+    },
+    {
+      "file": "stirling-cylinders.webp",
+      "title": "Cylinder layout",
+      "caption": "The modeled cylinder arrangement from the Stirling project presentation.",
+      "width": 410,
+      "height": 363
+    }
+  ],
+  "exchanger": [
+    {
+      "file": "exchanger-thermal-duty.webp",
+      "title": "Defining the thermal duty",
+      "caption": "The hot-oil and cold-water streams from our sizing report, with their inlet and outlet temperatures and mass flow rates.",
+      "width": 570,
+      "height": 371
+    },
+    {
+      "file": "exchanger-calculation.webp",
+      "title": "Iterating the calculation",
+      "caption": "An Excel calculation excerpt from the report, used to compare the assumed and calculated overall heat-transfer coefficients.",
+      "width": 886,
+      "height": 326
+    }
+  ],
+  "airfoil": [
+    {
+      "file": "airfoil-lift.webp",
+      "title": "Lift across angle of attack",
+      "caption": "The MATLAB lift-coefficient comparison from our NACA 0012 and NACA 2412 report.",
+      "width": 829,
+      "height": 628
+    },
+    {
+      "file": "airfoil-drag.webp",
+      "title": "The drag trade-off",
+      "caption": "The corresponding drag-coefficient curves from the same numerical study.",
+      "width": 837,
+      "height": 633
+    },
+    {
+      "file": "airfoil-efficiency.webp",
+      "title": "Comparing lift-to-drag ratio",
+      "caption": "The calculated lift-to-drag ratios, including the maximum values identified in the academic model.",
+      "width": 829,
+      "height": 625
+    }
+  ],
+  "valve": [
+    {
+      "file": "industrial-valve-reference.webp",
+      "title": "Industrial valve hardware",
+      "caption": "Industry reference photograph showing flanged valve construction.",
+      "width": 1600,
+      "height": 1063,
+      "credit": "Heather Smith / The Alloy Valve Stockist · <a href=\"https://commons.wikimedia.org/wiki/File:Gate_valve.JPG\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Resized and converted to WebP."
+    }
+  ],
+  "flyson": [
+    {
+      "file": "agricultural-drone-reference.webp",
+      "title": "Agricultural UAV equipment",
+      "caption": "Industry reference photograph of an agricultural drone at an exhibition.",
+      "width": 1600,
+      "height": 1200,
+      "credit": "Vis M · <a href=\"https://commons.wikimedia.org/wiki/File:Agricultural_drone,_Kerala_2023.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Resized and converted to WebP; this image adaptation is shared under the same license."
+    },
+    {
+      "file": "flyson-preparation-study.webp",
+      "title": "Preparation-time study",
+      "caption": "The before-and-after preparation-time comparison in my internship report. The proposed workflow combined location confirmation, a preparation checklist and a short field briefing; the report estimated a 60% reduction.",
+      "width": 936,
+      "height": 587
+    }
+  ],
+  "moody": [
+    {
+      "file": "moody-reference.svg",
+      "title": "Reading the Moody diagram",
+      "caption": "Reference chart showing friction factor against Reynolds number and relative roughness—the engineering relationship explored in my MATLAB implementation.",
+      "width": 1464,
+      "height": 906,
+      "credit": "S. Beck and R. Collins, University of Sheffield; SVG conversion by Marc Derumaux · <a href=\"https://commons.wikimedia.org/wiki/File:Moody_EN.svg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Original SVG, unchanged."
+    }
+  ],
+  "connector": [
+    {
+      "file": "te-report-assembly.webp",
+      "title": "The connector architecture",
+      "caption": "The assembled MQS connector studied during the internship. The redesign focused on the locking function within this existing architecture.",
+      "width": 1600,
+      "height": 729
+    },
+    {
+      "file": "te-report-exploded.webp",
+      "title": "Understanding the interfaces",
+      "caption": "The exploded view separates the carrier, terminal module, terminal and cover. This helped identify where the locking function could be integrated.",
+      "width": 847,
+      "height": 573
+    },
+    {
+      "file": "te-report-fea.webp",
+      "title": "Checking the concept numerically",
+      "caption": "ANSYS Static Structural view of the model and normal elastic strain, supporting the preliminary stiffness assessment.",
+      "width": 1292,
+      "height": 683
+    },
+    {
+      "file": "te-report-prototype.webp",
+      "title": "Preparing a prototype",
+      "caption": "Sliced toolpaths prepared for the module prototype and its geometric and assembly assessment.",
+      "width": 1317,
+      "height": 406
+    }
+  ],
+  "aerospace": [
+    {
+      "file": "fuselage-cad.webp",
+      "title": "Fuselage-section CAD",
+      "caption": "The team’s fuselage-section model, showing the outer skin and internal structure. The CAD model was the basis for the structural study.",
+      "width": 721,
+      "height": 580
+    },
+    {
+      "file": "fuselage-stress.webp",
+      "title": "Static stress analysis",
+      "caption": "Equivalent (von Mises) stress distribution used to examine load transfer through the modeled fuselage structure.",
+      "width": 967,
+      "height": 562
+    },
+    {
+      "file": "fuselage-modal.webp",
+      "title": "A closer look at a vibration mode",
+      "caption": "A frame from the modal-analysis animation at 9.0564 Hz, showing the calculated vibration-mode shape.",
+      "width": 1132,
+      "height": 460
     }
   ],
   "robotics": [
@@ -310,15 +580,6 @@ const projectPhotos={
       "file": "mobdie-laser-cutting.webp",
       "title": "Fabrication in the workshop",
       "caption": "Laser cutting in the MOBDIE prototyping photo collection, showing the fabrication stage used to turn component layouts into parts.",
-      "width": 1080,
-      "height": 1440
-    }
-  ],
-  "implant": [
-    {
-      "file": "uemf-cranial-model.webp",
-      "title": "Related cranial model",
-      "caption": "A physical cranial model from the UEMF laboratory photo collection. It provides anatomical-model context; the implant and split mold are not shown here.",
       "width": 1080,
       "height": 1440
     }
