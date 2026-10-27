@@ -1,19 +1,20 @@
 const projects = [
   {
     "id": "powder",
-    "title": "Powder Flowability Test Bench",
-    "name": "Powder Flowability Test Bench",
+    "title": "UEMF Manufacturing Lab — Design to Production",
+    "name": "UEMF Manufacturing Lab — Design to Production",
     "org": "UEMF · Advanced Manufacturing Lab",
     "category": "Manufacturing",
-    "tools": "CATIA V5 / Fusion 360 CAM / Haas VF-2 / FDM & SLS",
-    "intro": "I designed and fabricated a powder-flowability test bench during my manufacturing-lab internship, using ASTM B213 as a reference.",
-    "challenge": "The assignment brought together apparatus design, machining and additive prototyping in one physical bench.",
+    "tools": "CATIA V5 / Fusion 360 CAM / CNC / FDM & SLS / Tooling / Maintenance",
+    "intro": "During my placement at the UEMF Advanced Manufacturing Lab, I worked across the engineering-to-production chain: design, CAD/CAM, CNC machining, additive prototyping, tooling and workshop maintenance.",
+    "challenge": "Making parts and experimental devices work in practice requires more than a CAD model. It means preparing manufacturable geometry, selecting appropriate processes, checking equipment and refining the final part.",
     "process": [
-      "I developed the CAD in CATIA V5, working through the component geometry and assembly interfaces.",
-      "I prepared CAM in Fusion 360 and used the Haas VF-2, a three-axis CNC mill, to machine components.",
-      "FDM and SLS prototyping supported the fabrication work, taking the assignment beyond the CAD model."
+      "I designed and fabricated a powder-flowability test bench with reference to ASTM B213, connecting apparatus geometry with practical fabrication.",
+      "I prepared machining work using Fusion 360 CAM and worked with CNC equipment, mold machining, manual finishing and additive prototyping. The lab photo collection also documents machining setup, CAM toolpaths and SLS post-processing.",
+      "I designed an interlocking-brick mold and a spherical-part mold, supported tooling planning and worked on preventive maintenance of the workshop air compressor.",
+      "I gained broader hands-on exposure to laboratory measurement, instrumentation and prototyping workflows; these are practical skills and not separate industrial product-validation claims."
     ],
-    "result": "A fabricated powder-flowability test bench, supported by CAD/CAM development and built with reference to ASTM B213.",
+    "result": "Fabricated and machined laboratory parts, a powder-flowability apparatus, molds and documented practical exposure to machining, additive manufacturing, equipment maintenance and measurement. The value I bring is being able to consider fabrication and testing when making design decisions.",
     "shape": "tester"
   },
   {
