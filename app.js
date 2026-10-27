@@ -1,18 +1,18 @@
 const siteRoot = new URL('.', document.currentScript.src);
 const photoRoot = new URL('assets/photos/', siteRoot).href;
-const groups = {powder:'industrial', valve:'industrial', connector:'industrial', flyson:'industrial', robotics:'freelance'};
+const groups = {powder:'industrial', valve:'industrial', connector:'industrial', flyson:'industrial', robotics:'freelance', metallic:'academic'};
 const highlights = {
  powder:'CAD, CAM & a fabricated test bench', aerospace:'Six-student team · 2nd among external teams',
  connector:'Locking concepts, calculations & FEA', implant:'Scan geometry, implant interfaces & a split mold',
  valve:'150+ component assemblies & CAD automation', flyson:'Estimated 60% reduction in preparation time',
  robotics:'Walking robot, water wheel & hands-on kits', exchanger:'Thermal sizing & an Excel calculation tool',
  bender:'Mechanism architecture & frame design', airfoil:'A numerical comparison in MATLAB',
- moody:'Turbulent-flow equations & fixed-point iteration', stirling:'CAD & theoretical P–V-cycle analysis'
+ moody:'Turbulent-flow equations & fixed-point iteration', stirling:'CAD & theoretical P–V-cycle analysis', metallic:'Raised platform, stairs, railings and roof CAD'
 };
 const caseUrl = p => new URL(`projects/${p.id}/index.html`, siteRoot).href;
 function projectVisual(p) {
  const i = projectPhotos[p.id][0];
- const labels = {powder:'LAB MACHINING', valve:'INDUSTRY REFERENCE', flyson:'INDUSTRY REFERENCE', moody:'REFERENCE CHART', robotics:'PROJECT PROTOTYPE', implant:'LAB PROTOTYPING', airfoil:'MATLAB ANALYSIS', exchanger:'THERMAL SIZING'};
+ const labels = {metallic:'STRUCTURAL CAD',powder:'LAB MACHINING', valve:'INDUSTRY REFERENCE', flyson:'INDUSTRY REFERENCE', moody:'REFERENCE CHART', robotics:'PROJECT PROTOTYPE', implant:'LAB PROTOTYPING', airfoil:'MATLAB ANALYSIS', exchanger:'THERMAL SIZING'};
  return `<img class="project-photo" src="${photoRoot+i.file}" alt="${i.title}" width="${i.width}" height="${i.height}" loading="lazy"><span class="image-label">${labels[p.id] || 'PROJECT CAD'}</span>`;
 }
 function projectCard(p) {
@@ -28,7 +28,7 @@ function renderProjects(filter='all') {
 }
 renderProjects();
 const featured=document.querySelector('#featured-projects');
-if(featured) featured.innerHTML=['robotics','aerospace','powder','connector','implant','flyson'].map(id=>projectCard(projects.find(p=>p.id===id))).join('');
+if(featured) featured.innerHTML=['valve','connector','aerospace','metallic','powder','robotics'].map(id=>projectCard(projects.find(p=>p.id===id))).join('');
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
  document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});
  renderProjects(button.dataset.filter);
