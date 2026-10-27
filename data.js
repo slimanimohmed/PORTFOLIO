@@ -205,6 +205,23 @@ const projects = [
     ],
     "result": "A Gamma Stirling CAD assembly and theoretical thermal-cycle study linking the mechanism to heat-to-work conversion.",
     "shape": "stirling"
+  },
+  {
+    "id": "metallic",
+    "title": "Steel Platform & Access Structure",
+    "name": "Steel Platform & Access Structure",
+    "org": "Structural CAD · Engineering project",
+    "category": "Design",
+    "tools": "3D CAD / Structural assembly layout / Access & guardrails",
+    "intro": "I developed a three-dimensional CAD layout of a raised steel platform with a roof and an external access staircase.",
+    "challenge": "The design brings together the supporting columns, braces, platform, roof, stair flights, landing and safety railings within one coordinated structural layout.",
+    "process": [
+      "I modeled the main structural arrangement, including supports and bracing.",
+      "I integrated the raised platform, stairs, landing and railings into the CAD assembly.",
+      "I reviewed the arrangement and component interfaces in an isometric view."
+    ],
+    "result": "A coordinated structural CAD model showing the overall platform and access arrangement. The provided rendering does not establish that load calculations, code checks or fabrication were completed.",
+    "shape": "structure"
   }
 ];
 const courses = [
@@ -326,6 +343,7 @@ const courses = [
   }
 ];
 const projectPhotos = {
+  "metallic": [{"file":"metallic-structure.svg","title":"Elevated steel structure · CAD representation","caption":"A simplified illustration of the raised steel platform, roof, access staircase and railings shown in the supplied CAD screenshot.","width":813,"height":636}],
   "powder": [
     {
       "file": "lab-machined-cup.webp",
