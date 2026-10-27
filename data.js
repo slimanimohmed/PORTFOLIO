@@ -59,14 +59,14 @@ const projects = [
     "org": "Academic · Biomedical design",
     "category": "Design",
     "tools": "3D scan reconstruction / Surface modeling / Implant interfaces / Mold design",
-    "intro": "This academic project started with cranial scan geometry and continued through an implant concept and a two-part mold.",
+    "intro": "I reconstructed cranial geometry from a 3D scan and developed an implant and split-mold concept, focusing on fitting irregular anatomy and planning the interface between the designed part and surrounding bone.",
     "challenge": "The design had to follow irregular anatomical surfaces while providing clear implant boundaries and fixation interfaces.",
     "process": [
-      "I reconstructed the cranial geometry from 3D scan data and worked on the mesh and surfaces.",
-      "I modeled the implant boundaries and fixation interfaces.",
-      "I designed a two-part mold for prototype manufacture, with prototyping and mechanical evaluation included in the project work."
+      "I worked with imported scan geometry, mesh cleanup and surface reconstruction to establish the cranial defect boundary.",
+      "I designed the implant outline and fixation-interface concept in CAD, checking how the geometry follows the reconstructed anatomical surface.",
+      "I developed a split-mold concept for prototype manufacture and mechanical evaluation planning. The work was an academic engineering study rather than a certified medical product."
     ],
-    "result": "An academic implant concept and split-mold design connecting scan reconstruction, surface modeling and prototype manufacture.",
+    "result": "A digital cranial reconstruction, implant geometry and mold-design concept, demonstrating complex-surface CAD, interface reasoning and design-for-prototyping.",
     "shape": "implant"
   },
   {
@@ -346,6 +346,7 @@ const courses = [
 const projectPhotos = {
   "metallic": [{"file":"metallic-structure.svg","title":"Elevated steel structure · CAD representation","caption":"A simplified illustration of the raised steel platform, roof, access staircase and railings shown in the supplied CAD screenshot.","width":813,"height":636}],
   "powder": [
+    {"file":"uemf-sls-postprocessing.jpg","title":"Hands-on SLS post-processing","caption":"Working with equipment used after polymer powder-bed printing. This documents practical post-processing exposure, not a claim of independent machine qualification.","width":1200,"height":1600},
     {
       "file": "lab-machined-cup.webp",
       "title": "Precision machining in the lab",
@@ -369,6 +370,7 @@ const projectPhotos = {
     }
   ],
   "implant": [
+    {"file":"cranial-implant-original.jpg","title":"Implant and cranial defect — original project CAD","caption":"My project CAD view showing a reconstructed skull, cranial opening and implant-interface concept. The image documents the design study, not a clinically validated implant.","width":1080,"height":1440},
     {
       "file": "cranial-model.webp",
       "title": "Working with anatomical geometry",
