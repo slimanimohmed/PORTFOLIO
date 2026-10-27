@@ -346,6 +346,8 @@ const courses = [
 const projectPhotos = {
   "metallic": [{"file":"metallic-structure.svg","title":"Elevated steel structure · CAD representation","caption":"A simplified illustration of the raised steel platform, roof, access staircase and railings shown in the supplied CAD screenshot.","width":813,"height":636}],
   "powder": [
+    {"file":"uemf-cnc-workshop.jpg","title":"CNC workshop environment","caption":"CNC machine and machining operations at the UEMF Advanced Manufacturing Lab.","width":1200,"height":1600},
+    {"file":"uemf-instrumentation-setup.jpg","title":"Instrumentation and laboratory measurement","caption":"Equipment used for practical instrumentation and measurement work; documented as laboratory exposure.","width":1200,"height":1600},
     {"file":"uemf-sls-postprocessing.jpg","title":"Hands-on SLS post-processing","caption":"Working with equipment used after polymer powder-bed printing. This documents practical post-processing exposure, not a claim of independent machine qualification.","width":1200,"height":1600},
     {
       "file": "lab-machined-cup.webp",
